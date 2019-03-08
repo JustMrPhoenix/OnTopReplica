@@ -122,7 +122,7 @@ namespace OnTopReplica {
 
             //Deactivate click-through if form is reactivated
             if (ClickThroughEnabled) {
-                ClickThroughEnabled = false;
+                // ClickThroughEnabled = false;
             }
 
             Program.Platform.RestoreForm(this);
@@ -456,6 +456,5 @@ namespace OnTopReplica {
         }
 
         #endregion
-        
     }
 }
